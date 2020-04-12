@@ -1,0 +1,3 @@
+USE_INETD=false
+# OPTIONS below are used only with init script
+OPTIONS="--tftpd-timeout 300 --retry-timeout 5 --maxthread 100 --verbose=5 --daemon --port 69 /srv/tftp/root"
